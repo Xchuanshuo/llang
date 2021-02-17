@@ -1,0 +1,25 @@
+{
+    "name": "llang",
+    "displayName": "llang",
+    "description": "Syntax highlighting for l lang",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "llang",
+            "aliases": ["llang", "llang"],
+            "extensions": [".l"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "llang",
+            "scopeName": "source.l",
+            "path": "./syntaxes/llang.tmLanguage.json"
+        }]
+    }
+}
